@@ -1,0 +1,212 @@
+
+body {
+  background-color: #232323;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#Editor{
+  width:100%;
+  height:100%;
+}
+
+body, html {
+  width: 100%;
+  height:100%;
+}
+
+.potato--tabs {
+  min-height: 35px !important;
+}
+
+.potato--tabs div > span {
+  background-color: rgb(224, 108, 60) !important;
+
+}
+
+.potato--tab {
+  color: rgb(224, 108, 60) !important;
+  background-color: #292929 !important;
+  height:35px !important;
+  font-size: 0.675rem !important;
+}
+.potato--tab span {
+  font-size: 0.675rem !important;
+  text-transform: initial;
+}
+
+.MuiTabIndicator-root-91 {
+  background-color: rgb(224, 108, 60) !important;
+}
+
+.potato--top-navigation {
+  color: rgb(224, 108, 60) !important;
+  background-color: #292929 !important;
+}
+
+.potato--tab:after {
+  visibility: hidden;
+  content: 'X';
+  position: absolute;
+  top:11.5px;
+  right:10px;
+}
+
+.potato--tab:hover:after {
+  visibility: visible;
+}
+
+.LabelBottomNavigation-root-125 {
+  width: auto !important;
+}
+
+.potato--bottom-navigation {
+  height: 42px !important;
+  background-color: #292929 !important;
+}
+
+.MuiDrawer-paper-2 {
+  background-color: #292929 !important;
+}
+
+.MuiDrawer-paper-2 .MuiListItem-root-43 {
+  color:#f1f1f1;
+}
+
+.MuiBottomNavigationAction-root-127 {
+  color: rgb(224, 108, 60) !important;
+}
+
+.potato--bottom-navigation svg {
+  width: 19px;
+  height: 19px;
+  color: rgb(224, 108, 60) !important;
+  /* color: rgb(60, 138, 224) !important; */
+}
+
+.potato--bottom-navigation button {
+  padding-top: 8px !important;
+}
+
+.potato--file-list {
+  background-color: #232323;
+  border: 0px solid #292929;
+  box-shadow: inset 0 0 1px #151515;
+  max-height: 74%;
+  overflow: scroll;
+}
+
+.potato--file-list .json-icon::after {
+  content: '{ }'
+}
+
+.potato--file-list > li{
+  font-size: 0.775rem;
+  color: rgb(224, 108, 60);
+}
+.potato--file-list li h3{
+  font-size: 0.675rem !important;
+  text-align: left;
+  color: #f1f1f1;
+}
+
+.potato--file-list li {
+  align-items: left !important;
+  padding: 2px 15px;
+}
+
+.potato--file-list li svg{
+  height:16px;
+  widows: 16px;
+  margin-right: 2px;
+  margin-left: -7px;
+}
+
+.potato--file-list .file-icon {
+  margin-right: -10px;
+  color: #e06c3c;
+}
+
+.potato--file-list li > div{
+  padding: 0 4px;
+}
+
+.potato--file-list li ul li {
+  padding-left:38px;
+}
+
+.potato--sidebar {
+  background-color: #222;
+  height: 100%;
+  color: #f1f1f1;
+}
+
+.potato--sidebar > div {
+  background-color: #222;
+}
+
+.potato--logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 0 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+
+.potato--logo sup {
+  font-size: 10px;
+  color: rgb(224, 108, 60);
+}
+
+.potato--logo-title {
+  margin-left: 10px;
+}
+
+.potato--bottom-navigation i.fas{
+  font-size: 14px;
+  color: rgb(224, 108, 60);
+}
+
+.ace_content {
+  background-color: #232323 !important;
+  border: 5px solid #292929 !important;
+  color: #f1f1f1 !important;
+}
+
+.ace_completion-highlight {
+  color: #f1f1f1 !important;
+  font-weight: 600 !important;
+}
+
+.HomePage {
+  width: 100%;
+  height: 100%;
+}
